@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My News</title>
+</head>
+<body>
+    <h1>My News</h1>
+    <form method="POST" action="/article" enctype="multipart/form-data">
+        <label for="title">Title</label> <br>
+        <input type="text" name="title" id="title" size="40vw"> <br>
+        <label for="email">By</label> <br>
+        <input type="text" name="email" id="email" size="40vw"> <br>
+        <label for="article">Article</label> <br>
+        <textarea name="article" id="article" cols="30" rows="10"></textarea> <br>
+        <label for="image-file">Image</label> <br>
+        <input type="file" name="image-file" id="image-file" accept="image/*"> <br>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
